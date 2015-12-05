@@ -4,13 +4,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@drawable/bb11"
+    android:background="@drawable/cc11"
     tools:context="com.example.c.firstforandriod.RegisterActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="56dp"
-        android:background="#f498f5"
+        android:background="#9671e7"
         android:orientation="horizontal">
 
         <ImageView
@@ -34,13 +34,13 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
         <TextView
-            android:layout_marginLeft="130dp"
+            android:layout_gravity="center"
             android:layout_marginTop="70dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="注     册"
             android:textSize="30dp"
-            android:textColor="#583333"/>
+            android:textColor="#060505"/>
         <TextView
             android:layout_marginTop="60dp"
             android:layout_width="wrap_content"
@@ -59,7 +59,15 @@
         <EditText
             android:layout_width="match_parent"
             android:layout_height="50dp" />
-
+        <Button
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#9c9671e7"
+            android:text="注册"
+            />
     </LinearLayout>
 
 </LinearLayout>
